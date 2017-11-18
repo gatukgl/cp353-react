@@ -4,11 +4,11 @@ import {
   Route
 } from 'react-router-dom'
 
-import App from './App'
+import Login from './Login'
 
 const Routes = () => (
   <Switch>
-    <Route exact path='/' component={App} />
+    <Route exact path='/' component={Login} />
   </Switch>
 )
 
