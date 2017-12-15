@@ -2,8 +2,10 @@
   "name": "cp353-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gatukgl.github.io/cp353-react/",
   "dependencies": {
     "axios": "^0.17.1",
+    "gh-pages": "^1.1.0",
     "localStorage": "^1.0.3",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
@@ -15,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   }
 }
